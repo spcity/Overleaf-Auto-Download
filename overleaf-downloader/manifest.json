@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Overleaf Auto Download",
+  "version": "1.1",
+  "description": "在Overleaf项目页面无操作五分钟后自动下载项目，并允许用户自定义无操作时间。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.overleaf.com/project*", "https://www.overleaf.com/project"],
+      "js": ["content.js"]
+    }
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Overleaf Auto Download",
+    "default_popup": "options.html"
+  }
+}

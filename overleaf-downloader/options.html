@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Overleaf Auto Download 设置</title>
+  
+  <!-- 引入外部样式表 -->
+  <link rel="stylesheet" href="options.css">
+  
+  <!-- 可选：保留内部样式，如果需要 -->
+  <!--
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="number"] {
+      width: 60px;
+    }
+    #status {
+      color: green;
+      margin-top: 10px;
+    }
+  </style>
+  -->
+</head>
+<body>
+  <h1>Overleaf Auto Download 设置</h1>
+  <label for="inactivityLimit">无操作时间限制（分钟）：</label>
+  <input type="number" id="inactivityLimit" min="1" />
+  <button id="saveButton">保存</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

@@ -47,7 +47,7 @@ After installation, the extension will automatically run when you visit Overleaf
 
 Don't let Overleaf crashes disrupt your workflow. Download and install our Chrome extension today for a worry-free writing experience!
 
-👉 [Click here to download the extension from GitHub](https://github.com/spcity/Overleaf-Auto-Download)
+👉 [Click here to download the extension from GitHub](https://github.com/spcity/Overleaf-Auto-Download/archive/refs/heads/main.zip)
 
 ---
 
